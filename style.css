@@ -5,6 +5,11 @@
     border-color: green;
 } */
 
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -16,7 +21,6 @@ body {
 .content-1,
 .footer {
     color: #F9FAF8;
-    font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -84,9 +88,9 @@ h2 {
     flex-direction: column;
     align-items: start;
 
-    padding: 0 30px; 
+    padding: 0 30px;
 
-    gap: 5px;
+    gap: 10px;
 }
 
 .hero * {
@@ -98,7 +102,6 @@ h2 {
 
 button {
     color: #E5E7EB;
-
     background-color: #3882F6;
 }
 
@@ -114,7 +117,73 @@ button {
     padding: 0;
 }
 
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-2 img {
+    /* width: 100px;
+    height: 100px;
+    flex: 1 0 100%; */
+    border-style: solid;
+    border-color: #3882F6;
+
+
+}
+
+.ri {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 50px 200px;
+}
+
+.content-3 .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.content-3 .author {
+    align-self: end;
+    font-weight: 900;
+    /* font-size: 100px; */
+}
+
+
+
+.content-4 {
+
+    margin: 70px 100px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
 .footer {
     background-color: #1F2937;
 
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+
+    /* height: 5; */
 }
