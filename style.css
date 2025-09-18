@@ -90,7 +90,7 @@ h2 {
 
     padding: 0 30px;
 
-    gap: 10px;
+    gap: 20px;
 }
 
 .hero * {
@@ -104,13 +104,42 @@ button {
     color: #E5E7EB;
     background-color: #3882F6;
 
-    width: 100px;
-    height: auto;
 
-    flex: 0 0 100%;
-    /* border-style: dotted;
+    margin: 0;
+    padding: 0;
+
+    flex: 0 0 auto;
+    width: 100px;
+    height: 30px;
+
+    border-radius: 5px;
+
+    font-weight: 700;
+}
+
+
+
+#first-button {
+
+    border-width: 0;
+
+}
+
+#sign-button {
+    /* width: 20px; */
+
+
+
+    /* box-shadow: none; */
+
+    border-style: solid;
+
+    border-width: 3px;
+
     border-color: white;
-    border-radius: 5px; */
+
+
+
 }
 
 .content-1 img {
@@ -178,7 +207,7 @@ button {
 
 
 
-.content-2 ul{
+.content-2 ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -193,7 +222,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 50px 200px;
+    padding: 120px 240px;
 }
 
 .content-3 .quote {
@@ -217,7 +246,7 @@ button {
     /* border-style: dotted; */
     border-color: red;
 
-    margin: 70px 100px;
+    margin: 100px 200px;
     padding: 40px;
     border-radius: 10px;
     background-color: #3882F6;
@@ -241,22 +270,7 @@ button {
 
 }
 
-#sign-button {
-    /* width: 20px; */
-    flex: 0 0 80px;
-    height: 50px;
 
-    margin: 0;
-    padding: 0;
-
-
-    border-width: 3px;
-    /* border-style: dotted; */
-    border-color: white;
-
-
-    /* border: 0; */
-}
 
 .footer {
     background-color: #1F2937;
